@@ -21,14 +21,14 @@ class _DentalPaymentScreenState extends State<DentalPaymentScreen> {
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 const SizedBox(
-                  height: 50,
+                  height: 15,
                 ),
-                const Center(
+                const Padding(padding: EdgeInsets.only(left: 5),
                   child: Text(
                     "Continue to pay by credit card",
                     style: TextStyle(
                         color: Colors.red,
-                        fontSize: 28,
+                        fontSize: 25,
                         fontWeight: FontWeight.bold),
                   ),
                 ),
@@ -42,18 +42,18 @@ class _DentalPaymentScreenState extends State<DentalPaymentScreen> {
                   fit: BoxFit.fill,
                 )),
                 Padding(
-                  padding: const EdgeInsets.only(top: 5, left: 12, right: 12),
+                  padding: const EdgeInsets.only(top: 5, left: 12, right: 12,bottom: 5),
                   child: Container(
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
                       color: Colors.grey[300],
                     ),
                     width: 400,
-                    height: 60,
+                    height: 50,
                     child: const Text(
                       "The amount: 100LE",
                       style: TextStyle(
-                          fontSize: 25,
+                          fontSize: 20,
                           color: Colors.red,
                           fontWeight: FontWeight.bold),
                     ),
@@ -144,8 +144,8 @@ class _DentalPaymentScreenState extends State<DentalPaymentScreen> {
                 ),
 
                 Container(
-                  width: 180,
-                  height: 60,
+                  width: 130,
+                  height: 50,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(30),
                     color: Colors.red[500],
@@ -155,7 +155,7 @@ class _DentalPaymentScreenState extends State<DentalPaymentScreen> {
                         child: Text(
                           "Send",
                           style: TextStyle(
-                              fontSize: 24,
+                              fontSize: 22,
                               fontWeight: FontWeight.w600,
                               color: Colors.white),
                         )),
@@ -168,7 +168,7 @@ class _DentalPaymentScreenState extends State<DentalPaymentScreen> {
                           builder: (ctx) => AlertDialog(
                               insetPadding: const EdgeInsets.symmetric(
 
-                                vertical: 155.0,
+                                vertical: 140.0,
                               ),
                               title: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -259,7 +259,7 @@ class _DentalPaymentScreenState extends State<DentalPaymentScreen> {
                                     Container(
                                       color: Colors.grey[300],
                                       width: 300,
-                                      height: 70,
+                                      height: 62,
                                       child: const ListTile(
                                         title: Text(
                                           "Credit Card ",
@@ -278,7 +278,7 @@ class _DentalPaymentScreenState extends State<DentalPaymentScreen> {
                                           ),
                                         ),
                                         leading: Icon(Icons.credit_score,
-                                            color: Colors.red, size: 30),
+                                            color: Colors.red, size: 25),
                                       ),
                                     )
                                   ]),

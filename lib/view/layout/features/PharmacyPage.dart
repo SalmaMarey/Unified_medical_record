@@ -26,15 +26,7 @@ class _PharmacyPageState extends State<PharmacyPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        // appBar: AppBar(
-        //     automaticallyImplyLeading: false,
-        //     centerTitle: true,
-        //     title: Text(
-        //       "Pharmacy Services",
-        //       style: TextStyle(fontSize: 30),
-        //     ), backgroundColor: Colors.red,
-        // ),
-        // // backgroundColor: Colors.blue.shade50,
+
         body: ListView(children: [
       const SizedBox(
         height: 20,
@@ -75,7 +67,7 @@ class _PharmacyPageState extends State<PharmacyPage> {
           );
         },
       ),
-      Padding(
+      const Padding(
           padding: EdgeInsets.only(left: 25.0, right: 25.0, top: 25.0),
           child: Row(
             mainAxisSize: MainAxisSize.max,
@@ -83,7 +75,7 @@ class _PharmacyPageState extends State<PharmacyPage> {
               Column(
                 mainAxisAlignment: MainAxisAlignment.start,
                 mainAxisSize: MainAxisSize.min,
-                children: const [
+                children:  [
                   Text(
                     'make an order:',
                     style:

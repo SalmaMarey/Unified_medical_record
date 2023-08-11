@@ -153,7 +153,7 @@ class MapScreenState extends State<DocProfile>
                                Flexible(
                                 child:  TextField(
                                   decoration: const InputDecoration(
-                                    hintText: "Enter Your Name",
+                                    hintText: "Ahmed",
                                   ),
                                   enabled: !_status,
                                   autofocus: !_status,
@@ -190,7 +190,7 @@ class MapScreenState extends State<DocProfile>
                                Flexible(
                                 child:  TextField(
                                   decoration: const InputDecoration(
-                                      hintText: "Enter Email "),
+                                      hintText: "Ahmed2008@gmail.com "),
                                   enabled: !_status,
                                 ),
                               ),
@@ -225,7 +225,7 @@ class MapScreenState extends State<DocProfile>
                                Flexible(
                                 child:  TextField(
                                   decoration: const InputDecoration(
-                                      hintText: "Enter Mobile Number"),
+                                      hintText: "01099011104"),
                                   enabled: !_status,
                                 ),
                               ),
@@ -275,7 +275,7 @@ class MapScreenState extends State<DocProfile>
                                   padding: const EdgeInsets.only(right: 10.0),
                                   child: TextField(
                                     decoration: const InputDecoration(
-                                        hintText: "Enter Pin Code"),
+                                        hintText: "143244"),
                                     enabled: !_status,
                                   ),
                                 ),
@@ -284,7 +284,7 @@ class MapScreenState extends State<DocProfile>
                                 flex: 2,
                                 child: TextField(
                                   decoration: const InputDecoration(
-                                      hintText: "Enter State"),
+                                      hintText: "Mansoura"),
                                   enabled: !_status,
                                 ),
                               ),

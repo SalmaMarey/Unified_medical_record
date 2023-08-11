@@ -21,7 +21,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
         child: SafeArea(
           child: Column(mainAxisAlignment: MainAxisAlignment.start, children: [
             const Padding(
-              padding: EdgeInsets.only(top: 15, left: 10),
+              padding: EdgeInsets.only(top: 10, left: 10),
               child: Text(
                 "My History",
                 style: TextStyle(
@@ -32,14 +32,14 @@ class _PaymentScreenState extends State<PaymentScreen> {
               ),
             ),
             const SizedBox(
-              height: 20,
+              height: 15,
             ),
             Row(
               children: [
                 Padding(
                   padding: const EdgeInsets.only(top: 5, left: 12, right: 12),
                   child: Container(
-                    width: 190,
+                    width: 160,
                     height: 60,
                     decoration: BoxDecoration(
                       color: Colors.grey[300],
@@ -51,9 +51,9 @@ class _PaymentScreenState extends State<PaymentScreen> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(top: 5, left: 12, right: 12),
+                  padding: const EdgeInsets.only(top: 5, left: 4, right: 12),
                   child: Container(
-                    width: 190,
+                    width: 160,
                     height: 60,
                     decoration: BoxDecoration(
                       color: Colors.grey[300],
@@ -82,16 +82,16 @@ class _PaymentScreenState extends State<PaymentScreen> {
                         "Appiontment",
                         style: TextStyle(
                             color: Colors.black,
-                            fontSize: 25,
+                            fontSize: 19,
                             fontWeight: FontWeight.w400),
                       ),
                       leading: const Icon(Icons.visibility,
-                          color: Colors.red, size: 30),
+                          color: Colors.red, size: 25),
                       subtitle: const Text(
                         "Eye Clinic",
                         style: const TextStyle(
                             color: Colors.grey,
-                            fontSize: 20,
+                            fontSize: 15,
                             fontWeight: FontWeight.w400),
                       ),
                       trailing: Container(
@@ -105,10 +105,16 @@ class _PaymentScreenState extends State<PaymentScreen> {
                                 fontWeight: FontWeight.w900),
                           ),
                           Text(
-                            'Debited on 03 May 2023',
+                            '  Debited on ',
                             style: TextStyle(
                                 color: Colors.black,
-                                fontSize: 17,
+                                fontSize: 15,
+                                fontWeight: FontWeight.w400),
+                          ),Text(
+                            '  03 May 2023',
+                            style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 15,
                                 fontWeight: FontWeight.w400),
                           ),
                         ]),
@@ -132,16 +138,16 @@ class _PaymentScreenState extends State<PaymentScreen> {
                         "Re-Appiontment",
                         style: TextStyle(
                             color: Colors.black,
-                            fontSize: 25,
+                            fontSize: 17,
                             fontWeight: FontWeight.w400),
                       ),
                       leading: const Icon(Icons.visibility,
-                          color: Colors.red, size: 30),
+                          color: Colors.red, size: 25),
                       subtitle: const Text(
                         "Eye Clinic",
                         style: TextStyle(
                             color: Colors.grey,
-                            fontSize: 20,
+                            fontSize: 15,
                             fontWeight: FontWeight.w400),
                       ),
                       trailing: Container(
@@ -155,10 +161,16 @@ class _PaymentScreenState extends State<PaymentScreen> {
                                 fontWeight: FontWeight.w900),
                           ),
                           Text(
-                            'Debited on 08 May 2023',
+                            '  Debited on',
+                            style: TextStyle(
+                               color: Colors.black,
+                                fontSize: 15,
+                                fontWeight: FontWeight.w400),
+                          ),  Text(
+                            '  08 May 2023',
                             style: TextStyle(
                                 color: Colors.black,
-                                fontSize: 17,
+                                fontSize: 15,
                                 fontWeight: FontWeight.w400),
                           ),
                         ]),
@@ -182,16 +194,16 @@ class _PaymentScreenState extends State<PaymentScreen> {
                         "Medication Order",
                         style: TextStyle(
                             color: Colors.black,
-                            fontSize: 23,
+                            fontSize: 17,
                             fontWeight: FontWeight.w400),
                       ),
                       leading: const Icon(Icons.visibility,
-                          color: Colors.red, size: 30),
+                          color: Colors.red, size: 25),
                       subtitle: const Text(
                         "Pharmacy",
                         style: TextStyle(
                             color: Colors.grey,
-                            fontSize: 20,
+                            fontSize: 15,
                             fontWeight: FontWeight.w400),
                       ),
                       trailing: Container(
@@ -205,10 +217,16 @@ class _PaymentScreenState extends State<PaymentScreen> {
                                 fontWeight: FontWeight.w900),
                           ),
                           Text(
-                            'Debited on 03 May 2023',
+                            '  Debited on',
                             style: TextStyle(
                                 color: Colors.black,
-                                fontSize: 17,
+                                fontSize: 15,
+                                fontWeight: FontWeight.w400),
+                          ),Text(
+                            '  03 May 2023',
+                            style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 15,
                                 fontWeight: FontWeight.w400),
                           ),
                         ]),

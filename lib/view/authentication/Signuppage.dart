@@ -40,13 +40,13 @@ class _SignUppageState extends State<SignUppage> {
                   color: Colors.red,
                 ),
                 const SizedBox(
-                  width: 30,
+                  width: 0,
                 ),
                 (Image.asset(
-                  "assets/images/meddd.png",
-                  height: 250.0,
-                  width: 235.0,
-                  fit: BoxFit.cover,
+                  "assets/images/s33.png",
+                  height: 200.0,
+                  width: 290.0,
+                  // fit: BoxFit.cover,
                 )),
               ],
             )),

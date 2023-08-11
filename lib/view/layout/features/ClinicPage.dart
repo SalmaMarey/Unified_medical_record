@@ -40,7 +40,7 @@ class _ClinicPageState extends State<ClinicPage> {
                         width: 30,
                       ),
                       Image.asset(
-                        'assets/images/s22.png',
+                        'assets/images/s22.png', width: 150,height: 150,
                       ),
                       const SizedBox(
                         width: 35,
@@ -53,7 +53,7 @@ class _ClinicPageState extends State<ClinicPage> {
                                 "Eye Clinic",
                                 style: TextStyle(
                                     color: Colors.red,
-                                    fontSize: 35,
+                                    fontSize: 30,
                                     fontWeight: FontWeight.bold),
                               ),
                             ),
@@ -80,7 +80,7 @@ class _ClinicPageState extends State<ClinicPage> {
                       Image.asset(
                         'assets/images/s23.png',
                         height: 150,
-                        width: 150,
+                        width: 120,
                       ),
                       const SizedBox(
                         width: 35,
@@ -93,7 +93,7 @@ class _ClinicPageState extends State<ClinicPage> {
                                 "Dental Clinic",
                                 style: TextStyle(
                                     color: Colors.red,
-                                    fontSize: 35,
+                                    fontSize: 30,
                                     fontWeight: FontWeight.bold),
                               ),
                             ),

@@ -48,7 +48,7 @@ class _TrackingResultsScreenState extends State<TrackingResultsScreen> {
                       child: Text(
                         'Lipase result will be shown at this time',
                         style: TextStyle(
-                          fontSize: 24,
+                          fontSize: 20,
                           fontWeight: FontWeight.w600,
                         ),
                       ),
@@ -77,7 +77,7 @@ class _TrackingResultsScreenState extends State<TrackingResultsScreen> {
                       child: Text(
                         'Urea result will be shown at this time',
                         style: TextStyle(
-                          fontSize: 24,
+                          fontSize: 20,
                           fontWeight: FontWeight.w600,
                         ),
                       ),

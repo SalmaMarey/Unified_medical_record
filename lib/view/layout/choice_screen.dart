@@ -32,7 +32,8 @@ class _ChoiceScreenState extends State<ChoiceScreen> {
             ),
             Row(children: [
               const Padding(
-                padding: EdgeInsets.only(right: 55),
+                padding: EdgeInsets.only(right: 30
+                ),
               ),
               SizedBox(
                 height: 50, //height of button

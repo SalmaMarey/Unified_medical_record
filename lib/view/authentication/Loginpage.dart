@@ -45,7 +45,7 @@ class _LoginPageState extends State<LoginPage> {
                   color: Colors.red,
                 ),
                 const SizedBox(
-                  width: 30,
+                  width: 10,
                 ),
                 (Image.asset(
                   "assets/images/s8.png",
@@ -55,6 +55,7 @@ class _LoginPageState extends State<LoginPage> {
                 )),
               ],
             )),
+        SizedBox(height: 10,),
         const Text(
           "  Sign In",
           style: TextStyle(
@@ -68,7 +69,7 @@ class _LoginPageState extends State<LoginPage> {
         ),
         const Padding(
           padding: EdgeInsets.only(
-            top: 17,
+            top:0,
           ),
         ),
         Padding(
@@ -197,7 +198,7 @@ class _LoginPageState extends State<LoginPage> {
         ),const  Padding(
               padding: EdgeInsets.all(15.0),
               child: Text(
-                "_____________ or continue with _____________",
+                "_________ or continue with __________",
                 style: TextStyle(fontSize: 20, color: Colors.grey),
               ),
             ),

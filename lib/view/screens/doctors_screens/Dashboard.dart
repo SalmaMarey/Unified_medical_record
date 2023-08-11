@@ -39,15 +39,15 @@ class _DashboardPageState extends State<DashboardPage> {
                       subtitle: const Text('1-1-2023   12:00 Pm'),
                       leading: const Icon(Icons.calendar_month_rounded),
                       trailing: IconButton(
-                          onPressed: () {}, icon: const Icon(Icons.check_box)),
+                          onPressed: () {}, icon: const Icon(Icons.check_box,color: Colors.red,)),
                     ),
                     const   Padding(
                       padding: EdgeInsets.symmetric(vertical: 5,horizontal: 20),
                       child:  Align(
                         child: Text(
-                          'Patient Name: Ahmed',
+                          'Patient Name: Ahmed Kamel',
                           style: TextStyle(
-                            fontSize: 24,
+                            fontSize: 20,
                             fontWeight: FontWeight.w600,
                           ),
                         ),
@@ -63,7 +63,7 @@ class _DashboardPageState extends State<DashboardPage> {
                   children: [
                     ListTile(
                       title: const Text('Sunday'),
-                      subtitle: const Text('1-1-2023   12:00 Pm'),
+                      subtitle: const Text('1-1-2023   12:20 Pm'),
                       leading: const Icon(Icons.calendar_month_rounded),
                       trailing: IconButton(
                           onPressed: () {}, icon: const Icon(Icons.check_box)),
@@ -72,9 +72,9 @@ class _DashboardPageState extends State<DashboardPage> {
                       padding: EdgeInsets.symmetric(vertical: 5,horizontal: 20),
                       child: Align(
                         child: Text(
-                          'Patient Name: Ahmed',
+                          'Patient Name: Islam Abdallah',
                           style: TextStyle(
-                            fontSize: 24,
+                            fontSize: 20,
                             fontWeight: FontWeight.w600,
                           ),
                         ),
@@ -90,7 +90,7 @@ class _DashboardPageState extends State<DashboardPage> {
                   children: [
                     ListTile(
                       title: const Text('Sunday'),
-                      subtitle: const Text('1-1-2023   12:00 Pm'),
+                      subtitle: const Text('1-1-2023   12:40 Pm'),
                       leading: const Icon(Icons.calendar_month_rounded),
                       trailing: IconButton(
                           onPressed: () {}, icon: const Icon(Icons.check_box)),
@@ -99,9 +99,9 @@ class _DashboardPageState extends State<DashboardPage> {
                       padding: EdgeInsets.symmetric(vertical: 5,horizontal: 20),
                       child: Align(
                         child:  Text(
-                          'Patient Name: Ahmed',
+                          'Patient Name: Mohamed Ayman',
                           style: TextStyle(
-                            fontSize: 24,
+                            fontSize: 20,
                             fontWeight: FontWeight.w600,
                           ),
                         ),

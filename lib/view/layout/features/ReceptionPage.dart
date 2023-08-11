@@ -58,7 +58,7 @@ class _ReceptionPageState extends State<ReceptionPage> {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Container(
-                          width: 200,
+                          width: 150,
                           height: 80,
                           child: const Icon(
                             Icons.calendar_month_rounded,
@@ -67,7 +67,7 @@ class _ReceptionPageState extends State<ReceptionPage> {
                           ),
                         ),
                         Container(
-                          width: 200,
+                          width: 150,
                           height: 80,
                           child: const Icon(
                             Icons.receipt_long_outlined,
@@ -83,8 +83,9 @@ class _ReceptionPageState extends State<ReceptionPage> {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        Container(
-                          width: 180,
+                        Padding(padding: EdgeInsets.all(3),
+                        child: Container(
+                          width: 170,
                           height: 60,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(30),
@@ -106,9 +107,10 @@ class _ReceptionPageState extends State<ReceptionPage> {
                               print("Save");
                             },
                           ),
-                        ),
-                        Container(
-                          width: 180,
+                        ),),
+                        Padding(padding: EdgeInsets.all(3),
+                          child: Container(
+                          width: 170,
                           height: 60,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(30),
@@ -131,7 +133,7 @@ class _ReceptionPageState extends State<ReceptionPage> {
                               print("Save");
                             },
                           ),
-                        ),
+                        ),),
                       ],
                     ),
                   ]),

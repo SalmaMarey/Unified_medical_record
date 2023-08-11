@@ -18,7 +18,7 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
           const Padding(
-            padding: EdgeInsets.only(left: 5),
+            padding: EdgeInsets.only(left: 105),
             child: Text("About Us",
                 style: TextStyle(
                     color: Colors.red,
@@ -29,7 +29,7 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
             height: 20,
           ),
           Padding(
-            padding: const EdgeInsets.only(left: 30),
+            padding: const EdgeInsets.only(left: 5),
             child: Image.asset(
               "assets/images/s28.png",
               height: 250,
@@ -41,32 +41,32 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
             height: 28,
           ),
           Padding(
-            padding: const EdgeInsets.only(top: 5, right: 5, left: 5),
+            padding: const EdgeInsets.only( right: 5, left: 5),
             child: Container(
               width: double.infinity,
               height: 180,
               child: const Text(
                 "Our project aims to unify Medical Record so that it collects all patient data in one safe place with a high protection system and makes it easy for him to know his sick history through the application. Our biggest goal is to care for patients in the best possible way.",
                 style: TextStyle(
-                  fontSize: 22,
+                  fontSize: 18,
                   color: Colors.black,
                   fontWeight: FontWeight.w400,
                 ),
               ),
             ),
           ),
-          const SizedBox(
-            height: 28,
-          ),
-          Padding(
-            padding: const EdgeInsets.only(top: 5, right: 5, left: 5),
+          // const SizedBox(
+          //   height: 5,
+          // ),
+          const Padding(
+            padding:  EdgeInsets.only(top: 5, right: 5, left: 5),
             child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
-                children: const [
+                children:  [
                   Text(
                     "Project Engineers:",
                     style: TextStyle(
-                        fontSize: 30,
+                        fontSize:25,
                         decoration: TextDecoration.underline,
                         fontWeight: FontWeight.w400,
                         color: Colors.red),
@@ -76,7 +76,7 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
                     child: Text(
                       "1- Ahmed Hassan Bahlol (Front-End Developer)",
                       style: TextStyle(
-                          fontSize: 20,
+                          fontSize: 15,
                           fontWeight: FontWeight.w400,
                           color: Colors.black),
                     ),
@@ -89,7 +89,7 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
                     child: Text(
                       "2- Rawan Ali Abuzeid (Front-End Developer)",
                       style: TextStyle(
-                          fontSize: 20,
+                          fontSize: 15,
                           fontWeight: FontWeight.w400,
                           color: Colors.black),
                     ),
@@ -102,7 +102,7 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
                     child: Text(
                       "3- Salma Ahmed Marey (Mobile Developer)",
                       style: TextStyle(
-                          fontSize: 20,
+                          fontSize: 15,
                           fontWeight: FontWeight.w400,
                           color: Colors.black),
                     ),
@@ -115,7 +115,7 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
                     child: Text(
                       "4- Yassmin Mohamed Bahi (Mobile Developer)",
                       style: TextStyle(
-                          fontSize: 20,
+                          fontSize: 15,
                           fontWeight: FontWeight.w400,
                           color: Colors.black),
                     ),
@@ -128,7 +128,7 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
                     child: Text(
                       "5- Amany Ali Elenna (Back-End Developer)",
                       style: TextStyle(
-                          fontSize: 20,
+                          fontSize: 15,
                           fontWeight: FontWeight.w400,
                           color: Colors.black),
                     ),
@@ -141,7 +141,7 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
                     child: Text(
                       "6- Hassan El-Saed Zidan (Back-End Developer)",
                       style: TextStyle(
-                          fontSize: 20,
+                          fontSize: 15,
                           fontWeight: FontWeight.w400,
                           color: Colors.black),
                     ),
@@ -154,7 +154,7 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
                     child: Text(
                       "7- Hossam Mohamed Mohamed (Back-End Developer)",
                       style: TextStyle(
-                          fontSize: 20,
+                          fontSize: 15,
                           fontWeight: FontWeight.w400,
                           color: Colors.black),
                     ),
@@ -165,9 +165,9 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
                   Padding(
                     padding: EdgeInsets.only(top: 5, right: 5, left: 5),
                     child: Text(
-                      "8- Ahmed Yasser Fayed (Blockchain Developer)",
+                      "8- Ahmed Yasser Fayed (Back-End Developer)",
                       style: TextStyle(
-                          fontSize: 20,
+                          fontSize: 15,
                           fontWeight: FontWeight.w400,
                           color: Colors.black),
                     ),
@@ -178,9 +178,9 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
                   Padding(
                     padding: EdgeInsets.only(top: 5, right: 5, left: 5),
                     child: Text(
-                      "9- Nadeen Medhat Abd-Elaziz (Blockchain Developer)",
+                      "9- Nadeen Medhat Abd-Elaziz (Back-End Developer)",
                       style: TextStyle(
-                          fontSize: 20,
+                          fontSize:15,
                           fontWeight: FontWeight.w400,
                           color: Colors.black),
                     ),

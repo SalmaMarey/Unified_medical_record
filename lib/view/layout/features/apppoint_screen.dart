@@ -72,6 +72,34 @@ class _AppointScreenState extends State<AppointScreen> {
                         ),
                       ),
                     ),
+                  ), SizedBox(
+                    height: 10,
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(top: 5, left: 12, right: 12),
+                    child: Container(
+                      height: 60,
+                      decoration: BoxDecoration(
+                        color: Color.fromARGB(132, 184, 181, 181),
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      child: TextFormField(
+                        validator: (text) =>
+                        text!.isEmpty ? 'ID is Not Valid! ☹' : null,
+                        keyboardType: TextInputType.datetime,
+                        decoration: const InputDecoration(
+                          hintStyle: TextStyle(fontSize: 17),
+                          labelText: 'ID',
+                          labelStyle: TextStyle(
+                            color: Colors.redAccent,
+                          ),
+                          suffixIcon: Icon(Icons.badge,
+                              color: Colors.redAccent),
+                          border: InputBorder.none,
+                          contentPadding: EdgeInsets.all(10),
+                        ),
+                      ),
+                    ),
                   ),
                   SizedBox(
                     height: 10,

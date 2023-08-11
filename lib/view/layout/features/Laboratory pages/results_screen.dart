@@ -14,12 +14,13 @@ class _ResultsScreenState extends State<ResultsScreen> {
 
         // backgroundColor: Colors.blue.shade50,
         body: SingleChildScrollView(
-      child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+      child: Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisSize: MainAxisSize.max,
+          children: [
         const SizedBox(
           height: 20,
         ),
         const Padding(
-          padding: EdgeInsets.only(left: 8),
+          padding: EdgeInsets.only(left: 8, top: 20),
           child: Text(
             "Available results",
             style: TextStyle(
@@ -38,7 +39,7 @@ class _ResultsScreenState extends State<ResultsScreen> {
         const Padding(
           padding: EdgeInsets.only(left: 8),
           child: Text(
-            "CBC",
+            " CBC",
             style: TextStyle(
                 fontSize: 30,
                 color: Colors.red,
@@ -49,20 +50,20 @@ class _ResultsScreenState extends State<ResultsScreen> {
         const SizedBox(
           height: 10,
         ),
-        Padding(
-          padding: const EdgeInsets.only(left: 0),
+             Padding(
+          padding: const EdgeInsets.only(left: 10,right: 10),
           child: Container(
-            width: double.infinity,
+            width: 350,
             height:530,
             color: Colors.grey[300],
             child:
-                Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              Row(children: const [
+                Column(crossAxisAlignment: CrossAxisAlignment.start, children:  [
+              Row(children:  [
                 Padding(
                   padding: EdgeInsets.only(left: 5, top: 5),
                   child: Text(
                     "RBC: 4.8 x10^6/ul",
-                    style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
                   ),
                 ),
                 SizedBox(
@@ -70,7 +71,7 @@ class _ResultsScreenState extends State<ResultsScreen> {
                 ),
                 Text(
                   "Normal ",
-                  style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
                 ),
               ]),
               const Divider(
@@ -81,7 +82,7 @@ class _ResultsScreenState extends State<ResultsScreen> {
                   padding: EdgeInsets.only(left: 5, top: 5),
                   child: Text(
                     "HgB: 13 g/dl",
-                    style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
                   ),
                 ),
                 SizedBox(
@@ -89,7 +90,7 @@ class _ResultsScreenState extends State<ResultsScreen> {
                 ),
                 Text(
                   "Normal ",
-                  style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
                 ),
               ]),
               const Divider(
@@ -100,7 +101,7 @@ class _ResultsScreenState extends State<ResultsScreen> {
                   padding: EdgeInsets.only(left: 5, top: 5),
                   child: Text(
                     "Hct: 45 %",
-                    style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
                   ),
                 ),
                 SizedBox(
@@ -108,7 +109,7 @@ class _ResultsScreenState extends State<ResultsScreen> {
                 ),
                 Text(
                   "Normal ",
-                  style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
                 ),
               ]),
               const Divider(
@@ -119,7 +120,7 @@ class _ResultsScreenState extends State<ResultsScreen> {
                   padding: EdgeInsets.only(left: 5, top: 5),
                   child: Text(
                     "MCV: 80 fl",
-                    style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
                   ),
                 ),
                 SizedBox(
@@ -127,7 +128,7 @@ class _ResultsScreenState extends State<ResultsScreen> {
                 ),
                 Text(
                   "Normal ",
-                  style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
                 ),
               ]),
               const Divider(
@@ -138,7 +139,7 @@ class _ResultsScreenState extends State<ResultsScreen> {
                   padding: EdgeInsets.only(left: 5, top: 5),
                   child: Text(
                     "MCH: 32 pg",
-                    style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
                   ),
                 ),
                 SizedBox(
@@ -146,7 +147,7 @@ class _ResultsScreenState extends State<ResultsScreen> {
                 ),
                 Text(
                   "Normal ",
-                  style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
                 ),
               ]),
               const Divider(
@@ -157,7 +158,7 @@ class _ResultsScreenState extends State<ResultsScreen> {
                   padding: EdgeInsets.only(left: 5, top: 5),
                   child: Text(
                     "WBC: 13 x10^3/ul",
-                    style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
                   ),
                 ),
                 SizedBox(
@@ -165,7 +166,7 @@ class _ResultsScreenState extends State<ResultsScreen> {
                 ),
                 Text(
                   "Abnormal ",
-                  style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
                 ),
               ]),
                   const SizedBox(
@@ -173,31 +174,31 @@ class _ResultsScreenState extends State<ResultsScreen> {
                   ),
               const Text(
                 " Neutrophils: 70%",
-                style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
               ),const SizedBox(
                     height: 3,
                   ),
               const Text(
                 " Lymphocytes:24%",
-                style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
               ),const SizedBox(
                     height: 3,
                   ),
               const Text(
                 " Monocytes: 5%",
-                style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
               ),const SizedBox(
                     height: 3,
                   ),
               const Text(
                 " Eosinophils: 2%",
-                style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
               ),const SizedBox(
                     height: 3,
                   ),
               const Text(
                 " Basophils: 0%",
-                style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
               ),
               const Divider(
                 thickness: 2,
@@ -207,7 +208,7 @@ class _ResultsScreenState extends State<ResultsScreen> {
                   padding: EdgeInsets.only(left: 5, top: 5),
                   child: Text(
                     "PLT: 355 x10^3/ul",
-                    style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
                   ),
                 ),
                 SizedBox(
@@ -215,7 +216,7 @@ class _ResultsScreenState extends State<ResultsScreen> {
                 ),
                 Text(
                   "Normal ",
-                  style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
                 ),
               ]),
             ]),

@@ -68,7 +68,35 @@ class _EyeScreenState extends State<EyeScreen> {
                           suffixIcon:
                               Icon(Icons.person, color: Colors.redAccent),
                           border: InputBorder.none,
-                          contentPadding: EdgeInsets.all(10),
+                          contentPadding: EdgeInsets.all(5),
+                        ),
+                      ),
+                    ),
+                  ), SizedBox(
+                    height: 10,
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(top: 5, left: 12, right: 12),
+                    child: Container(
+                      height: 60,
+                      decoration: BoxDecoration(
+                        color: Color.fromARGB(132, 184, 181, 181),
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      child: TextFormField(
+                        validator: (text) =>
+                        text!.isEmpty ? 'ID is Not Valid! ☹' : null,
+                        keyboardType: TextInputType.datetime,
+                        decoration: const InputDecoration(
+                          hintStyle: TextStyle(fontSize: 17),
+                          labelText: 'ID',
+                          labelStyle: TextStyle(
+                            color: Colors.redAccent,
+                          ),
+                          suffixIcon: Icon(Icons.badge,
+                              color: Colors.redAccent),
+                          border: InputBorder.none,
+                          contentPadding: EdgeInsets.all(5),
                         ),
                       ),
                     ),
@@ -97,7 +125,7 @@ class _EyeScreenState extends State<EyeScreen> {
                           suffixIcon: Icon(Icons.calendar_month_rounded,
                               color: Colors.redAccent),
                           border: InputBorder.none,
-                          contentPadding: EdgeInsets.all(10),
+                          contentPadding: EdgeInsets.all(5),
                         ),
                       ),
                     ),
@@ -144,7 +172,7 @@ class _EyeScreenState extends State<EyeScreen> {
                           suffixIcon:
                               Icon(Icons.phone, color: Colors.redAccent),
                           border: InputBorder.none,
-                          contentPadding: EdgeInsets.all(10),
+                          contentPadding: EdgeInsets.all(5),
                         ),
                       ),
                     ),
@@ -173,7 +201,7 @@ class _EyeScreenState extends State<EyeScreen> {
                           suffixIcon:
                               Icon(Icons.email, color: Colors.redAccent),
                           border: InputBorder.none,
-                          contentPadding: EdgeInsets.all(10),
+                          contentPadding: EdgeInsets.all(5),
                         ),
                       ),
                     ),
@@ -202,7 +230,7 @@ class _EyeScreenState extends State<EyeScreen> {
                           suffixIcon: Icon(Icons.calendar_month_rounded,
                               color: Colors.redAccent),
                           border: InputBorder.none,
-                          contentPadding: EdgeInsets.all(10),
+                          contentPadding: EdgeInsets.all(5),
                         ),
                       ),
                     ),
@@ -231,7 +259,7 @@ class _EyeScreenState extends State<EyeScreen> {
                           suffixIcon:
                               Icon(Icons.alarm, color: Colors.redAccent),
                           border: InputBorder.none,
-                          contentPadding: EdgeInsets.all(10),
+                          contentPadding: EdgeInsets.all(5),
                         ),
                       ),
                     ),
@@ -276,7 +304,7 @@ class _EyeScreenState extends State<EyeScreen> {
                                               BorderRadius.circular(8),
                                           color: Colors.red,
                                         ),
-                                        padding: const EdgeInsets.all(14),
+                                        padding: const EdgeInsets.all(10),
                                         child: const Text(
                                           "Continue payment",
                                           style: TextStyle(
@@ -294,18 +322,18 @@ class _EyeScreenState extends State<EyeScreen> {
                                       },
                                     ),
                                     const SizedBox(
-                                      width: 30,
+                                      width: 33,
                                     ),
                                     InkWell(
                                       child: Container(
-                                        padding: const EdgeInsets.all(14),
+                                        padding: const EdgeInsets.all(10),
                                         decoration: BoxDecoration(
                                           borderRadius:
                                               BorderRadius.circular(8),
                                           color: Colors.red,
                                         ),
                                         child: const Text(
-                                          "Cancel reservation",
+                                          "Cancel ",
                                           style: TextStyle(
                                             color: Colors.white,
                                           ),

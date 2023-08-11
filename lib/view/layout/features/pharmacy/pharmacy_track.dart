@@ -49,7 +49,7 @@ class _TrackingOrderScreenState extends State<TrackingOrderScreen> {
                       child: Text(
                         'You will receive the order at this time.',
                         style: TextStyle(
-                          fontSize: 24,
+                          fontSize: 20,
                           fontWeight: FontWeight.w600,
                         ),
                       ),

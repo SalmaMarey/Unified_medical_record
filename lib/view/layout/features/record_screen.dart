@@ -33,16 +33,16 @@ class _RecordScreenState extends State<RecordScreen> {
                   children: [
                     ListTile(
                       title: const Text('Sunday'),
-                      subtitle: const Text('1-1-2023   12:00 Pm'),
-                      leading: const Icon(Icons.calendar_month_rounded),
+                      subtitle: const Text('1-3-2023   12:00 Pm'),
+                      leading: const Icon(Icons.calendar_month_rounded,color: Colors.red,),
                       trailing: IconButton(
-                          onPressed: () {}, icon: const Icon(Icons.check_box)),
+                          onPressed: () {}, icon: const Icon(Icons.check_box,color: Colors.red,)),
                     ),
-                    Padding(
+                    const Padding(
                       padding: EdgeInsets.symmetric(vertical: 5,horizontal: 20),
                       child: Align(
                         child: Text(
-                          'Dr.Ahmed',
+                          'Dr. Ahmed',
                           style: TextStyle(
                             fontSize: 24,
                             fontWeight: FontWeight.w600,
@@ -59,17 +59,17 @@ class _RecordScreenState extends State<RecordScreen> {
                 child: Column(
                   children: [
                     ListTile(
-                      title: const Text('Sunday'),
-                      subtitle: const Text('1-1-2023   12:00 Pm'),
+                      title: const Text('Saturday'),
+                      subtitle: const Text('7-3-2023   7:00 Pm'),
                       leading: const Icon(Icons.calendar_month_rounded),
                       trailing: IconButton(
                           onPressed: () {}, icon: const Icon(Icons.check_box)),
                     ),
-                    Padding(
+                    const Padding(
                       padding: EdgeInsets.symmetric(vertical: 5,horizontal: 20),
                       child: Align(
                         child: Text(
-                          'Dr.Ahmed',
+                          'Dr. Hesham',
                           style: TextStyle(
                             fontSize: 24,
                             fontWeight: FontWeight.w600,
@@ -82,32 +82,7 @@ class _RecordScreenState extends State<RecordScreen> {
                 ),
               ),
               const Divider(thickness: 2,),
-              Container(
-                child: Column(
-                  children: [
-                    ListTile(
-                      title: const Text('Sunday'),
-                      subtitle: const Text('1-1-2023   12:00 Pm'),
-                      leading: const Icon(Icons.calendar_month_rounded),
-                      trailing: IconButton(
-                          onPressed: () {}, icon: const Icon(Icons.check_box)),
-                    ),
-                     const Padding(
-                       padding: EdgeInsets.symmetric(vertical: 5,horizontal: 20),
-                       child: Align(
-                        child: Text(
-                          'Dr.Ahmed',
-                          style: TextStyle(
-                            fontSize: 24,
-                            fontWeight: FontWeight.w600,
-                          ),
-                        ),
-                        alignment: Alignment.bottomLeft,
-                    ),
-                     ),
-                  ],
-                ),
-              ),
+
 
             ]),
           ),

@@ -42,7 +42,7 @@ class _LogDocPageState extends State<LogDocPage> {
                   color: Colors.red,
                 ),
                 const SizedBox(
-                  width: 30,
+                  width: 5,
                 ),
                 (Image.asset(
                   "assets/images/s4.png",
@@ -65,7 +65,7 @@ class _LogDocPageState extends State<LogDocPage> {
         ),
         const Padding(
           padding: EdgeInsets.only(
-            top: 17,
+            top: 10,
           ),
         ),
         Padding(
@@ -155,7 +155,7 @@ class _LogDocPageState extends State<LogDocPage> {
         InkWell(
           onTap: () {},
           child: const Text(
-            "  Forget Password?    ",
+            "Forget Password?    ",
             style: TextStyle(
               fontSize: 20,
               color: Colors.grey,
@@ -164,18 +164,19 @@ class _LogDocPageState extends State<LogDocPage> {
             textAlign: TextAlign.right,
           ),
         ),
+
         const Padding(
           padding: EdgeInsets.all(9.0),
         ),
         const Padding(
-          padding: EdgeInsets.all(15.0),
+          padding: EdgeInsets.only(left:15.0,right: 5),
           child: Text(
-            "____________ or continue with _____________",
+            "__________ or continue with _________",
             style: TextStyle(fontSize: 20, color: Colors.grey),
           ),
         ),
         Padding(
-          padding: const EdgeInsets.all(2.0),
+          padding: const EdgeInsets.all(38.0),
           child: Center(
             child: Wrap(
               crossAxisAlignment: WrapCrossAlignment.center,
